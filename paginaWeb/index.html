@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telecom Ingenieria</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body class="min-h-screen flex flex-col">
+    <header class="bg-gray-900 text-white sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <img src="fotos/telecom.png"  class="w-20 h-20 object-cover">
+                <span class="text-2xl font-bold">Telecom Ingenieria</span>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:text-blue-400">Inicio</a></li>
+                    <li><a href="#services" class="hover:text-blue-400">Servicios</a></li>
+                    <li><a href="#about" class="hover:text-blue-400">Acerca de</a></li>
+                    <li><a href="#contact" class="hover:text-blue-400">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <section id="home" class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20">
+            <div class="container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">Descubre el Mundo de la Informática</h1>
+                <p class="text-xl mb-8">Explora tecnología de vanguardia y amplía tu conocimiento</p>
+            </div>
+        </section>
+
+        <section id="services" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12 text-white">Servicios Destacados</h2>
+                <div class="services-carousel">
+                    <div class="bg-gray-800 rounded-lg overflow-hidden">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqxjtjl-DNlPUJhJnXiBfNyFi5Czi-Lb3N_Q&s" alt="Soporte Remoto" class="w-full h-64 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-white">Soporte Remoto</h3>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg overflow-hidden">
+                        <img src="https://alejandria.edu.uy/wp-content/uploads/2023/08/cableado.jpg" alt="Cableado Estructurado" class="w-full h-64 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-white">Cableado Estructurado</h3>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg overflow-hidden">
+                        <img src="https://jatinformatik.com/images/redes-inalambricas-y-cableado-estructurado.png" alt="Redes cableadas e inalámbrica" class="w-full h-64 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-white">Redes cableadas e inalámbricas</h3>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg overflow-hidden">
+                        <img src="https://www.todoelectronica.com/modules/dbblog/views/img/post/videovigilancia_conceptos2.jpg" alt="Seguridad y vigilancia" class="w-full h-64 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-white">Seguridad y vigilancia</h3>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg overflow-hidden">
+                        <img src="https://www.bestsistemas.com/wp-content/uploads/2023/07/Soporte-tecnico-online-1.webp" alt="Soporte Técnico" class="w-full h-64 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-lg font-semibold text-white">Soporte Técnico</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Nuestros Servicios</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div class="text-blue-600 mb-4 flex justify-center">
+                            
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Seguridad y Vigilancia</h3>
+                        <p class="text-gray-600">Camaras de alta calidad</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div class="text-blue-600 mb-4 flex justify-center">
+                            
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Cableado Estructurado</h3>
+                        <p class="text-gray-600">Organizado y escalable</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div class="text-blue-600 mb-4 flex justify-center">
+                            
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Redes inalambricas</h3>
+                        <p class="text-gray-600">Calidad de red</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <div class="text-blue-600 mb-4 flex justify-center">
+                            
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Soporte tecnico y remoto</h3>
+                        <p class="text-gray-600">24/7</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Sobre Nosotros</h2>
+                <div class="bg-gray-100 p-8 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold mb-6">Qué Hacemos</h3>
+                    <ul class="space-y-4 text-gray-600">
+                        <li>• Soporte técnico remoto y asistencia</li>
+                        <li>• Instalación de hardware y software</li>
+                        <li>• Configuración y mantenimiento de redes</li>
+                        <li>• Implementación de sistemas de seguridad</li>
+                        <li>• Soluciones de respaldo y recuperación de datos</li>
+                        <li>• Servicios de consultoría en TI</li>
+                    </ul>
+                </div>
+                
+                <div class="container mx-auto px-4">
+                    <h2 class="text-3xl font-bold text-center mb-12 text-black"><br>Trabajamos con</h2>
+                    <div class="services-carousel slick-slider">
+                        <div class="bg-gray-800 rounded-lg overflow-hidden w-64 h-40">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_KXaTtQpTA2-x-ekNPizbU-fMvPEu-o7DqA&s" alt="Asterick" class="w-full h-full object-cover">
+                        </div>
+                        <div class="bg-gray-800 rounded-lg overflow-hidden w-64 h-40">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSChzgABU6RM81POwhvmxomgYRpg8G9wxs_tg&s" alt="DSC" class="w-full h-full object-cover">
+                        </div>
+                        <div class="bg-gray-800 rounded-lg overflow-hidden w-64 h-40">
+                            <img src="https://gaucasupply.com.uy/cpanelBW/imagesBW/hikvision.webp" alt="Hikvision" class="w-full h-full object-cover">
+                        </div>
+                        <div class="bg-gray-800 rounded-lg overflow-hidden w-64 h-40">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgXlc_cSs-iur4QGOq2Kf-6DQDYcHgxGJy2w&s" alt="HoneyWell" class="w-full h-full object-cover">
+                        </div>
+                        <div class="bg-gray-800 rounded-lg overflow-hidden w-64 h-40">
+                            <img src="https://pbs.twimg.com/profile_images/674142203891945472/g2TYnawA_400x400.jpg" alt="LinkBasic" class="w-full h-full object-cover">
+                        </div>
+                        <div class="bg-gray-800 rounded-lg overflow-hidden w-64 h-40">
+                            <img src="https://yt3.googleusercontent.com/ytc/AIdro_n21K8ww7fgRFuflSvt05eU-E76AWwBtto86tadjmM7v8Q=s900-c-k-c0x00ffffff-no-rj" alt="NEC" class="w-full h-full object-cover">
+                        </div>
+                        <div class="bg-gray-800 rounded-lg overflow-hidden w-64 h-40">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ50ahxr5BLb-NiXVhQDPiFvSY5fG8lw4K_g&s" alt="Nexxt" class="w-full h-full object-cover">
+                        </div>
+                        <div class="bg-gray-800 rounded-lg overflow-hidden w-64 h-40">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUOy_jkoaJreNWIleG0WWDCVF-PxhhhLF7vA&s" alt="Panasonic" class="w-full h-full object-cover">
+                        </div>
+                        <div class="bg-gray-800 rounded-lg overflow-hidden w-64 h-40">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Samsung_logo_blue.png" alt="Samsung" class="w-full h-full object-cover">
+                        </div>
+                        <div class="bg-gray-800 rounded-lg overflow-hidden w-64 h-40">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/TPLINK_New_Logo.jpg/1200px-TPLINK_New_Logo.jpg" alt="TPLink" class="w-full h-full object-cover">
+                        </div>
+                        <div class="bg-gray-800 rounded-lg overflow-hidden w-64 h-40">
+                            <img src="https://lancologne.de/wp-content/uploads/2018/02/head-partner-ubiquiti.jpg" alt="Ubiquiti" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="py-20 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Mantente Informado</h2>
+                <div class="max-w-md mx-auto">
+                    <form class="flex gap-2">
+                        <input type="email" placeholder="Ingresa tu correo" class="flex-grow px-4 py-2 border rounded-md">
+                        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Contáctanos</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-100 p-8 rounded-lg shadow-md">
+                        <h3 class="text-2xl font-semibold mb-6">Ponte en Contacto</h3>
+                        <form class="space-y-4">
+                            <input type="text" placeholder="Tu Nombre" class="w-full px-4 py-2 border rounded-md">
+                            <input type="email" placeholder="Tu Correo" class="w-full px-4 py-2 border rounded-md">
+                            <textarea class="w-full p-3 border rounded-md" rows="4" placeholder="Tu Mensaje"></textarea>
+                            <button type="submit" class="w-full bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                    <div class="bg-gray-100 p-8 rounded-lg shadow-md">
+                        <h3 class="text-2xl font-semibold mb-6">Nuestra Información</h3>
+                        <ul class="space-y-4 text-gray-600">
+                            <li class="flex items-center">
+                                <i class="fas fa-map-marker-alt text-purple-500"></i>&nbsp;Avda Italia y Calle Biarrtiz, Edificio "Helios" Local 04.
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-phone text-green-500"></i>&nbsp;(+598) 097470495
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-envelope text-white-500"></i>&nbsp;gabrielgomez@ingenieria.com.uy
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="https://wa.me/59897470495" 
+        class="whatsapp-float" 
+        target="_blank" 
+        title="Chatea con nosotros por WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        </main>
+        
+        <footer class="bg-gray-900 text-white py-10">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Sobre Nosotros</h3>
+                        <p class="text-gray-400">Nos dedicamos a proporcionar educación informática de alta calidad y servicios tanto a estudiantes como a profesionales.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Enlaces Rápidos</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#home" class="text-gray-400 hover:text-white">Inicio</a></li>
+                            <li><a href="#services" class="text-gray-400 hover:text-white">Servicios</a></li>
+                            <li><a href="#about" class="text-gray-400 hover:text-white">Acerca de</a></li>
+                            <li><a href="#contacto" class="text-gray-400 hover:text-white">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Contáctanos</h3>
+                        <ul class="space-y-2 text-gray-400">
+                            <li class="flex items-center">
+                                <i class="fas fa-map-marker-alt text-purple-500"></i>&nbsp;Avda Italia y Calle Biarrtiz, Edificio "Helios" Local 04.
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-phone text-green-500"></i>&nbsp;(+598) 097470495
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-envelope text-white-500"></i>&nbsp;gabrielgomez@ingenieria.com.uy
+                            </li>
+                            <a href="https://facebook.com/tu_pagina" target="_blank" class="mr-2 text-blue-500">
+                                <i class="fab fa-facebook"></i> Facebook
+                            </a>
+                            <a href="https://twitter.com/tu_usuario" target="_blank" class="mr-2 text-blue-400">
+                                <i class="fab fa-twitter"></i> Twitter
+                            </a>
+                            <a href="https://instagram.com/tu_usuario" target="_blank" class="text-pink-500">
+                                <i class="fab fa-instagram"></i> Instagram
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
+                    <p>&copy; 2024 Telecom. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.services-carousel').slick({
+                arrows: true,
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                prevArrow: '<button type="button" class="slick-prev">❮</button>',
+                nextArrow: '<button type="button" class="slick-next">❯</button>',
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+
+        });
+    </script>
+</body>
+<style>
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px; /* Altura desde la parte inferior */
+    right: 20px; /* Espaciado desde el lado derecho */
+    background-color: #25d366; /* Color oficial de WhatsApp */
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    font-size: 28px; /* Tamaño del ícono */
+    z-index: 1000;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efecto hover */
+.whatsapp-float:hover {
+    background-color: #1ebd57;
+    transform: scale(1.1);
+}
+
+.slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.4); /* Fondo negro translúcido */
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+
+}
+
+.slick-prev:hover, .slick-next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo más oscuro al pasar el cursor */
+}
+
+.slick-prev:active, .slick-next:active {
+    background-color: rgba(0, 0, 0, 0.8) !important;/* Fondo más oscuro al pasar el cursor */
+}
+
+
+</style>
+</html>
